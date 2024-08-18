@@ -72,10 +72,10 @@ class AppTextStyle extends TextTheme {
   @override
   TextStyle? get titleSmall => TextStyle(
         fontWeight: FontWeight.w500,
-        fontSize: FontSize.size14,
+        fontSize: FontSize.size48,
         letterSpacing: 0.1,
         fontFamily: "Poppins",
-        color: AppColors.white,
+        color: AppColors.black,
       );
 
   @override
@@ -117,7 +117,7 @@ class AppTextStyle extends TextTheme {
   @override
   TextStyle? get labelSmall => TextStyle(
         fontWeight: FontWeight.w400,
-        fontSize: FontSize.size10,
+        fontSize: FontSize.size48,
         letterSpacing: 1.5,
         fontFamily: "Poppins",
         color: AppColors.white,
