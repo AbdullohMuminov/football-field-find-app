@@ -9,9 +9,9 @@ const ColorScheme lightColorScheme = ColorScheme(
   secondary: Color.fromRGBO(24, 23, 37, 1),
   secondaryContainer: Color.fromRGBO(118, 118, 128, 0.12), ///767680 12%
   surface: Color.fromRGBO(255, 255, 255, 1), ///For backgrounds of (Scaffold, app, ...).
-  onSurface: Color.fromRGBO(24, 23, 37, 1), ///For items on background!
+  onSurface: Color(0xff000000), ///For items on background!
   surfaceBright: Color.fromRGBO(178, 178, 178, 1),
-  outline: Color.fromRGBO(237, 237, 237, 1), ///For outlines!
+  outline: Color.fromRGBO(0, 0, 0, 0.04), ///For outlines!
   shadow: Color.fromRGBO(96, 132, 118, 0.2), ///For shadows
 
   ///Don't need ones!!!

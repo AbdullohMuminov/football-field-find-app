@@ -36,10 +36,28 @@ final class AppImages {
     width: 25.w,
   );
 
-  static final favoriteIcon = SvgPicture.asset(
+  static final exploreIconUnselected = SvgPicture.asset(
+    "assets/icons/explore_icon_unselected.svg",
+    height: 20.h,
+    width: 25.w,
+  );
+
+  static final favoriteIconSelected = SvgPicture.asset(
+    "assets/icons/favorite_icon_selected.svg",
+    height: 20.h,
+    width: 23.w,
+  );
+
+  static final favoriteIconUnselected = SvgPicture.asset(
     "assets/icons/favorite_icon_unselected.svg",
     height: 20.h,
     width: 23.w,
+  );
+
+  static final accountIconSelected = SvgPicture.asset(
+    "assets/icons/account_icon_selected.svg",
+    height: 20.h,
+    width: 16.w,
   );
 
   static final accountIconUnselected = SvgPicture.asset(
