@@ -1,7 +1,7 @@
 import "package:flutter/foundation.dart";
 import "package:flutter/material.dart";
+import "package:flutter_screenutil/flutter_screenutil.dart";
 import "package:football_field_find/src/core/style/text_style.dart";
-import "app_colors.dart";
 import "color_schema.dart";
 
 @immutable
@@ -14,29 +14,76 @@ final class AppThemes {
       : darkTheme = ThemeData(
           brightness: Brightness.dark,
           colorScheme: darkColorScheme,
-          scaffoldBackgroundColor: AppColors.black,
+          scaffoldBackgroundColor: darkColorScheme.surface,
           textTheme: const AppTextStyle(),
         ),
         lightTheme = ThemeData(
           brightness: Brightness.light,
           colorScheme: lightColorScheme,
-          scaffoldBackgroundColor: AppColors.white,
+          scaffoldBackgroundColor: lightColorScheme.surface,
           textTheme: const AppTextStyle(),
         );
 
   static ThemeData light() => ThemeData(
         brightness: Brightness.light,
         colorScheme: lightColorScheme,
-        scaffoldBackgroundColor: AppColors.white,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: AppColors.white,
+        scaffoldBackgroundColor: lightColorScheme.surface,
+        appBarTheme: AppBarTheme(
+          backgroundColor: lightColorScheme.surface,
+          shadowColor: lightColorScheme.shadow,
+        ),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          backgroundColor: lightColorScheme.surface,
+          selectedLabelStyle: TextStyle(
+            fontFamily: "Gilroy",
+            fontWeight: FontWeight.w400,
+            fontSize: 12.sp,
+            color: lightColorScheme.primary,
+          ),
+          unselectedLabelStyle: TextStyle(
+            fontFamily: "Gilroy",
+            fontWeight: FontWeight.w400,
+            fontSize: 12.sp,
+            color: lightColorScheme.onSurface,
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ButtonStyle(
+            backgroundColor: WidgetStateProperty.all<Color>(lightColorScheme.surface),
+            shadowColor: WidgetStateProperty.all<Color>(lightColorScheme.shadow),
+          ),
         ),
       );
 
   static ThemeData dark() => ThemeData(
         brightness: Brightness.dark,
         colorScheme: darkColorScheme,
-        scaffoldBackgroundColor: AppColors.black,
+        scaffoldBackgroundColor: darkColorScheme.surface,
+        appBarTheme: AppBarTheme(
+          backgroundColor: darkColorScheme.surface,
+          shadowColor: darkColorScheme.shadow,
+        ),
+        bottomNavigationBarTheme: BottomNavigationBarThemeData(
+          backgroundColor: darkColorScheme.surface,
+          selectedLabelStyle: TextStyle(
+            fontFamily: "Gilroy",
+            fontWeight: FontWeight.w400,
+            fontSize: 12.sp,
+            color: darkColorScheme.primary,
+          ),
+          unselectedLabelStyle: TextStyle(
+            fontFamily: "Gilroy",
+            fontWeight: FontWeight.w400,
+            fontSize: 12.sp,
+            color: darkColorScheme.onSurface,
+          ),
+        ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ButtonStyle(
+            backgroundColor: WidgetStateProperty.all<Color>(darkColorScheme.surface),
+            shadowColor: WidgetStateProperty.all<Color>(darkColorScheme.shadow),
+          ),
+        ),
       );
 
   ThemeData computeTheme() {

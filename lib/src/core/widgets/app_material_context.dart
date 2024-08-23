@@ -1,23 +1,22 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../feature/main/main_screen.dart';
-import '../../feature/settings/theme_controller.dart';
-import '../style/text_style.dart';
+import "package:flutter/material.dart";
+import "package:football_field_find/src/feature/main/view/pages/main_screen.dart";
+import "../../feature/settings/inherited_theme_notifier.dart";
+import "../../feature/settings/theme_controller.dart";
 
-class AppMaterialContext extends ConsumerWidget {
+final ThemeController themeController = ThemeController();
+
+class AppMaterialContext extends StatelessWidget {
   const AppMaterialContext({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    // Access the ThemeController
-    final themeController = ref.watch(themeControllerProvider);
-
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: themeController.theme.copyWith(
-        textTheme: const AppTextStyle(), // Apply your custom TextTheme here
+  Widget build(BuildContext context) => InheritedThemeNotifier(
+    themeController: themeController,
+    child: Builder(
+      builder: (context) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: InheritedThemeNotifier.maybeOf(context)?.theme,
+        home: const MainScreen(),
       ),
-      home: const MainScreen(),
-    );
-  }
+    ),
+  );
 }
