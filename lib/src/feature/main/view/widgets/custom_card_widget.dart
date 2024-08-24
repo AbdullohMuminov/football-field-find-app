@@ -1,5 +1,6 @@
 import 'package:football_field_find/src/core/constants/context_extension.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:football_field_find/src/core/widgets/app_material_context.dart';
 import '../../../../core/style/app_images.dart';
 import 'package:flutter/material.dart';
 import 'custom_status_widget.dart';
@@ -23,7 +24,7 @@ class CustomCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 194.h,
+      height: 200.h,
       width: double.infinity,
       child: DecoratedBox(
         decoration: BoxDecoration(
@@ -104,6 +105,10 @@ class CustomCardWidget extends StatelessWidget {
                           ),
                           color: isAvailable ?? false ? context.theme.colorScheme.primary : context.theme.colorScheme.surfaceBright,
                           elevation: 0,
+                          highlightElevation: 0,
+                          hoverElevation: 0,
+                          focusElevation: 0,
+                          padding: EdgeInsets.zero,
                           child: Text(
                             "Book now!",
                             style: context.textTheme.bodyMedium?.copyWith(
@@ -119,9 +124,13 @@ class CustomCardWidget extends StatelessWidget {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(Radius.circular(10.r)),
                           ),
-                          color: const Color.fromRGBO(247, 247, 247, 1),
+                          color: themeController.isLight ? const Color.fromRGBO(247, 247, 247, 1) : const Color(0xFF2a5278),
                           elevation: 0,
-                          child: AppImages.directionIcon,
+                          highlightElevation: 0,
+                          hoverElevation: 0,
+                          focusElevation: 0,
+                          padding: EdgeInsets.zero,
+                          child: themeController.isLight ? AppImages.directionIconLightMode : AppImages.directionIconDarkMode,
                         ),
                       ],
                     ),

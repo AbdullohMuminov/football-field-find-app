@@ -25,8 +25,8 @@ class CustomBottomNavigationBarWidget extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: const Color.fromRGBO(230, 235, 243, 0.5),
-              blurRadius: 37.r,
-              offset: const Offset(0, -12),
+              blurRadius: 15.r,
+              offset: const Offset(2, -5),
             ),
           ],
         ),

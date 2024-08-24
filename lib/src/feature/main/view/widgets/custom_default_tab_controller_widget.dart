@@ -1,4 +1,5 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:football_field_find/src/core/widgets/app_material_context.dart';
 import '../../../../core/style/app_images.dart';
 import 'package:flutter/material.dart';
 import 'custom_tab_widget.dart';
@@ -78,13 +79,13 @@ class CustomDefaultTabControllerWidget extends StatelessWidget implements Prefer
                                 isSelected: tabIndex == 0,
                                 text: "Map",
                                 selectedIcon: AppImages.mapIconSelected,
-                                unselectedIcon: AppImages.mapIconUnselected,
+                                unselectedIcon: themeController.isLight ? AppImages.mapIconUnselectedLightMode : AppImages.mapIconUnselectedDarkMode,
                               ),
                               CustomTabWidget(
                                 isSelected: tabIndex == 1,
                                 text: "List",
                                 selectedIcon: AppImages.listIconSelected,
-                                unselectedIcon: AppImages.listIconUnselected,
+                                unselectedIcon: themeController.isLight ? AppImages.listIconUnselectedLightMode : AppImages.listIconUnselectedDarkMode,
                               ),
                             ],
                           ),

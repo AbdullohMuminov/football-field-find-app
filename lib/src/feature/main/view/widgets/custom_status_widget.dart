@@ -22,7 +22,7 @@ class CustomStatusWidget extends StatelessWidget {
             borderRadius: BorderRadius.circular(16.r),
           ),
           child: Padding(
-            padding: REdgeInsets.only(top: 4, right: 8, bottom: 4, left: 8),
+            padding: REdgeInsets.only(top: 2, right: 8, bottom: 2, left: 8),
             child: Text(
               isAvailable ?? false ? "Working" : "Closed",
               style: context.textTheme.bodyMedium?.copyWith(

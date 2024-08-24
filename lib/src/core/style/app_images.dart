@@ -14,8 +14,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final mapIconUnselected = SvgPicture.asset(
-    "assets/icons/map_icon_unselected.svg",
+  static final mapIconUnselectedLightMode = SvgPicture.asset(
+    "assets/icons/map_icon_unselected_light_mode.svg",
+    height: 16.h,
+    width: 16.w,
+    fit: BoxFit.cover,
+  );
+
+  static final mapIconUnselectedDarkMode = SvgPicture.asset(
+    "assets/icons/map_icon_unselected_dark_mode.svg",
     height: 16.h,
     width: 16.w,
     fit: BoxFit.cover,
@@ -28,8 +35,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final listIconUnselected = SvgPicture.asset(
-    "assets/icons/list_icon_unselected.svg",
+  static final listIconUnselectedLightMode = SvgPicture.asset(
+    "assets/icons/list_icon_unselected_light_mode.svg",
+    height: 14.65.h,
+    width: 16.w,
+    fit: BoxFit.cover,
+  );
+
+  static final listIconUnselectedDarkMode = SvgPicture.asset(
+    "assets/icons/list_icon_unselected_dark_mode.svg",
     height: 14.65.h,
     width: 16.w,
     fit: BoxFit.cover,
@@ -84,8 +98,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final directionIcon = SvgPicture.asset(
-    "assets/icons/direction_icon.svg",
+  static final directionIconLightMode = SvgPicture.asset(
+    "assets/icons/direction_icon_light_mode.svg",
+    height: 18.h,
+    width: 18.w,
+    fit: BoxFit.cover,
+  );
+
+  static final directionIconDarkMode = SvgPicture.asset(
+    "assets/icons/direction_icon_dark_mode.svg",
     height: 18.h,
     width: 18.w,
     fit: BoxFit.cover,

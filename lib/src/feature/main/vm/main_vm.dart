@@ -37,7 +37,6 @@ class MainVm extends ChangeNotifier {
       _stadiumList = await _repository.fetchStadiumsList();
       notifyListeners();
     } catch (e) {
-      // Handle the error
       _stadiumList = null;
       notifyListeners();
     }

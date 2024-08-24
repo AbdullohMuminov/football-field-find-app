@@ -29,6 +29,7 @@ final class AppThemes {
         colorScheme: lightColorScheme,
         scaffoldBackgroundColor: lightColorScheme.surface,
         appBarTheme: AppBarTheme(
+          backgroundColor: darkColorScheme.surface,
           surfaceTintColor: lightColorScheme.surface,
           shadowColor: lightColorScheme.shadow,
         ),
