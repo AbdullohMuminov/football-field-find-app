@@ -35,13 +35,13 @@ final class AppThemes {
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           backgroundColor: lightColorScheme.surface,
           selectedLabelStyle: TextStyle(
-            fontFamily: "Gilroy",
+            fontFamily: "gilroy",
             fontWeight: FontWeight.w400,
             fontSize: 12.sp,
             color: lightColorScheme.primary,
           ),
           unselectedLabelStyle: TextStyle(
-            fontFamily: "Gilroy",
+            fontFamily: "gilroy",
             fontWeight: FontWeight.w400,
             fontSize: 12.sp,
             color: lightColorScheme.onSurface,
@@ -67,13 +67,13 @@ final class AppThemes {
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           backgroundColor: darkColorScheme.surface,
           selectedLabelStyle: TextStyle(
-            fontFamily: "Gilroy",
+            fontFamily: "gilroy",
             fontWeight: FontWeight.w400,
             fontSize: 12.sp,
             color: darkColorScheme.primary,
           ),
           unselectedLabelStyle: TextStyle(
-            fontFamily: "Gilroy",
+            fontFamily: "gilroy",
             fontWeight: FontWeight.w400,
             fontSize: 12.sp,
             color: darkColorScheme.onSurface,

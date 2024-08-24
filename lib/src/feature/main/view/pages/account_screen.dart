@@ -6,7 +6,9 @@ class AccountScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: SizedBox(),
+      body: Center(
+        child: Text("Account screen!"),
+      ),
     );
   }
 }

@@ -1,6 +1,7 @@
-import "package:flutter/material.dart";
+import "package:football_field_find/src/core/constants/context_extension.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
 import "package:flutter_svg/flutter_svg.dart";
+import "package:flutter/material.dart";
 
 class CustomTabWidget extends StatelessWidget {
   final SvgPicture selectedIcon;
@@ -26,6 +27,7 @@ class CustomTabWidget extends StatelessWidget {
             Text(
               text,
               overflow: TextOverflow.ellipsis,
+              style: context.textTheme.titleMedium,
             ),
           ],
         ),

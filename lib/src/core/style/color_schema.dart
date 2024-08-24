@@ -11,8 +11,10 @@ const ColorScheme lightColorScheme = ColorScheme(
   surface: Color.fromRGBO(255, 255, 255, 1), ///For backgrounds of (Scaffold, app, ...).
   onSurface: Color(0xff000000), ///For items on background!
   surfaceBright: Color.fromRGBO(178, 178, 178, 1),
-  outline: Color.fromRGBO(0, 0, 0, 0.04), ///For outlines!
+  outline: Color.fromRGBO(237, 237, 237, 1), ///For outlines!
   shadow: Color.fromRGBO(96, 132, 118, 0.2), ///For shadows
+  tertiary: Color.fromRGBO(255, 218, 105, 1),
+  onTertiary: Color.fromRGBO(77, 61, 15, 1),
 
   ///Don't need ones!!!
   surfaceDim: Color(0xFF000000), ///000000 Always darkest at the dark and light mode!
@@ -31,8 +33,6 @@ const ColorScheme lightColorScheme = ColorScheme(
   // onSecondary: Color(0xff141311),
   // secondaryContainer: Color(0xffffffff),
   // onSecondaryContainer: Color(0xff141414),
-  // tertiary: Color(0xff141311),
-  // onTertiary: Color(0xff000000),
   // tertiaryContainer: Color(0xffEDEDED),
   // onTertiaryContainer: Color(0xff141413),
   // error: Color(0xffb00020),

@@ -11,7 +11,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size96,
         letterSpacing: -1.5,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -20,7 +20,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w300,
         fontSize: FontSize.size60,
         letterSpacing: -0.5,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -29,7 +29,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size48,
         letterSpacing: 0,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -38,7 +38,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size34,
         letterSpacing: 0.25,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -47,7 +47,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size24,
         letterSpacing: 0,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -56,7 +56,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size20,
         letterSpacing: 0.15,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black, /// TabBar!!! Stadium names!!!
       );
 
@@ -65,8 +65,8 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
         letterSpacing: 0.15,
-        fontFamily: "Gilroy",
-        color: AppColors.black,
+        fontFamily: "gilroy",
+        // color: AppColors.black,
       );
 
   @override
@@ -74,7 +74,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size14,
         letterSpacing: 0.1,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -83,7 +83,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size16,
         letterSpacing: 0.5,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black, /// pricing text
       );
 
@@ -92,7 +92,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size14,
         letterSpacing: 0.25,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black, /// Address
       );
 
@@ -101,7 +101,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size12,
         letterSpacing: 0.4,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black,
       );
 
@@ -110,7 +110,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w500,
         fontSize: FontSize.size14,
         letterSpacing: 1.25,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black, /// Buttons text
       );
 
@@ -119,7 +119,7 @@ class AppTextStyle extends TextTheme {
         fontWeight: FontWeight.w400,
         fontSize: FontSize.size10,
         letterSpacing: 1.5,
-        fontFamily: "Gilroy",
+        fontFamily: "gilroy",
         color: AppColors.black, /// Status tags
       );
 }
