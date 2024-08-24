@@ -29,7 +29,7 @@ final class AppThemes {
         colorScheme: lightColorScheme,
         scaffoldBackgroundColor: lightColorScheme.surface,
         appBarTheme: AppBarTheme(
-          backgroundColor: lightColorScheme.surface,
+          surfaceTintColor: lightColorScheme.surface,
           shadowColor: lightColorScheme.shadow,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
@@ -61,6 +61,7 @@ final class AppThemes {
         scaffoldBackgroundColor: darkColorScheme.surface,
         appBarTheme: AppBarTheme(
           backgroundColor: darkColorScheme.surface,
+          surfaceTintColor: darkColorScheme.surface,
           shadowColor: darkColorScheme.shadow,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
