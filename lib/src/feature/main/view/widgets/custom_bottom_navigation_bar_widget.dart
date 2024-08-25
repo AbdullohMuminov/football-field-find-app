@@ -1,3 +1,4 @@
+import 'package:football_field_find/src/core/widgets/app_material_context.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../core/style/app_images.dart';
 import 'package:flutter/material.dart';
@@ -41,17 +42,17 @@ class CustomBottomNavigationBarWidget extends StatelessWidget {
             currentIndex: currentIndex,
             items: [
               BottomNavigationBarItem(
-                icon: AppImages.exploreIconUnselected,
+                icon: themeController.isLight ? AppImages.exploreIconUnselectedLightMode : AppImages.exploreIconUnselectedDarkMode,
                 activeIcon: AppImages.exploreIconSelected,
                 label: "Explore",
               ),
               BottomNavigationBarItem(
-                icon: AppImages.favoriteIconUnselected,
+                icon: themeController.isLight ? AppImages.favoriteIconUnselectedLightMode : AppImages.favoriteIconUnselectedDarkMode,
                 activeIcon: AppImages.favoriteIconSelected,
                 label: "Favourite",
               ),
               BottomNavigationBarItem(
-                icon: AppImages.accountIconUnselected,
+                icon: themeController.isLight ? AppImages.accountIconUnselectedLightMode : AppImages.accountIconUnselectedDarkMode,
                 activeIcon: AppImages.accountIconSelected,
                 label: "Account",
               ),

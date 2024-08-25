@@ -1,5 +1,5 @@
-import "package:flutter/material.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
+import "package:flutter/material.dart";
 import "app_colors.dart";
 
 @immutable
@@ -57,7 +57,7 @@ class AppTextStyle extends TextTheme {
         fontSize: FontSize.size20,
         letterSpacing: 0.15,
         fontFamily: "gilroy",
-        color: AppColors.black, /// TabBar!!! Stadium names!!!
+        color: AppColors.black,
       );
 
   @override
@@ -84,7 +84,7 @@ class AppTextStyle extends TextTheme {
         fontSize: FontSize.size16,
         letterSpacing: 0.5,
         fontFamily: "gilroy",
-        color: AppColors.black, /// pricing text
+        color: AppColors.black,
       );
 
   @override
@@ -93,7 +93,7 @@ class AppTextStyle extends TextTheme {
         fontSize: FontSize.size14,
         letterSpacing: 0.25,
         fontFamily: "gilroy",
-        color: AppColors.black, /// Address
+        color: AppColors.black,
       );
 
   @override
@@ -111,7 +111,7 @@ class AppTextStyle extends TextTheme {
         fontSize: FontSize.size14,
         letterSpacing: 1.25,
         fontFamily: "gilroy",
-        color: AppColors.black, /// Buttons text
+        color: AppColors.black,
       );
 
   @override
@@ -120,7 +120,7 @@ class AppTextStyle extends TextTheme {
         fontSize: FontSize.size10,
         letterSpacing: 1.5,
         fontFamily: "gilroy",
-        color: AppColors.black, /// Status tags
+        color: AppColors.black,
       );
 }
 

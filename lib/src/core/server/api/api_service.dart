@@ -1,6 +1,6 @@
-import 'package:dio/dio.dart';
-import 'package:retrofit/retrofit.dart';
 import '../../../data/model/stadium_model.dart';
+import 'package:retrofit/retrofit.dart';
+import 'package:dio/dio.dart';
 
 part 'api_service.g.dart';
 

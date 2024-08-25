@@ -1,5 +1,5 @@
-import "package:flutter/material.dart";
 import "package:football_field_find/src/core/style/text_style.dart";
+import "package:flutter/material.dart";
 
 extension CustomContextExtension on BuildContext {
   MediaQueryData get mediaQuery => MediaQuery.of(this);

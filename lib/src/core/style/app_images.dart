@@ -5,8 +5,6 @@ import "package:flutter_svg/svg.dart";
 final class AppImages {
   const AppImages._();
 
-  // *** svg images
-
   static final mapIconSelected = SvgPicture.asset(
     "assets/icons/map_icon_selected.svg",
     height: 16.h,
@@ -56,8 +54,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final exploreIconUnselected = SvgPicture.asset(
-    "assets/icons/explore_icon_unselected.svg",
+  static final exploreIconUnselectedLightMode = SvgPicture.asset(
+    "assets/icons/explore_icon_unselected_light_mode.svg",
+    height: 20.h,
+    width: 25.w,
+    fit: BoxFit.cover,
+  );
+
+  static final exploreIconUnselectedDarkMode = SvgPicture.asset(
+    "assets/icons/explore_icon_unselected_dark_mode.svg",
     height: 20.h,
     width: 25.w,
     fit: BoxFit.cover,
@@ -70,8 +75,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final favoriteIconUnselected = SvgPicture.asset(
-    "assets/icons/favorite_icon_unselected.svg",
+  static final favoriteIconUnselectedLightMode = SvgPicture.asset(
+    "assets/icons/favorite_icon_unselected_light_mode.svg",
+    height: 20.h,
+    width: 23.w,
+    fit: BoxFit.cover,
+  );
+
+  static final favoriteIconUnselectedDarkMode = SvgPicture.asset(
+    "assets/icons/favorite_icon_unselected_dark_mode.svg",
     height: 20.h,
     width: 23.w,
     fit: BoxFit.cover,
@@ -84,8 +96,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final accountIconUnselected = SvgPicture.asset(
-    "assets/icons/account_icon_unselected.svg",
+  static final accountIconUnselectedLightMode = SvgPicture.asset(
+    "assets/icons/account_icon_unselected_light_mode.svg",
+    height: 20.h,
+    width: 16.w,
+    fit: BoxFit.cover,
+  );
+
+  static final accountIconUnselectedDarkMode = SvgPicture.asset(
+    "assets/icons/account_icon_unselected_dark_mode.svg",
     height: 20.h,
     width: 16.w,
     fit: BoxFit.cover,
@@ -112,8 +131,15 @@ final class AppImages {
     fit: BoxFit.cover,
   );
 
-  static final stadiumLocationIcon = SvgPicture.asset(
-    "assets/icons/stadium_location_icon.svg",
+  static final stadiumLocationIconLightMode = SvgPicture.asset(
+    "assets/icons/stadium_location_icon_light_mode.svg",
+    height: 48.h,
+    width: 42.w,
+    fit: BoxFit.cover,
+  );
+
+  static final stadiumLocationIconDarkMode = SvgPicture.asset(
+    "assets/icons/stadium_location_icon_dark_mode.svg",
     height: 48.h,
     width: 42.w,
     fit: BoxFit.cover,

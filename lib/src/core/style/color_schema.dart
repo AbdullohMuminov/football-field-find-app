@@ -3,24 +3,23 @@ import 'package:flutter/material.dart' show ColorScheme, Brightness, Color;
 const ColorScheme lightColorScheme = ColorScheme(
   brightness: Brightness.light,
 
-  primary: Color.fromRGBO(42, 166, 76, 1), ///For main components on UI!
-  onPrimary: Color.fromRGBO(255, 255, 255, 1), ///For items ex. icons, texts on main components on UI!
+  primary: Color.fromRGBO(42, 166, 76, 1),
+  onPrimary: Color.fromRGBO(255, 255, 255, 1),
   primaryContainer: Color.fromRGBO(0, 170, 91, 1),
   secondary: Color.fromRGBO(24, 23, 37, 1),
-  secondaryContainer: Color.fromRGBO(118, 118, 128, 0.12), ///767680 12%
-  surface: Color.fromRGBO(255, 255, 255, 1), ///For backgrounds of (Scaffold, app, ...).
-  onSurface: Color(0xff000000), ///For items on background!
+  secondaryContainer: Color.fromRGBO(118, 118, 128, 0.12),
+  surface: Color.fromRGBO(255, 255, 255, 1),
+  onSurface: Color(0xff000000),
   surfaceBright: Color.fromRGBO(178, 178, 178, 1),
-  outline: Color.fromRGBO(237, 237, 237, 1), ///For outlines!
-  shadow: Color.fromRGBO(96, 132, 118, 0.2), ///For shadows
+  outline: Color.fromRGBO(237, 237, 237, 1),
+  shadow: Color.fromRGBO(96, 132, 118, 0.2),
   tertiary: Color.fromRGBO(255, 218, 105, 1),
   onTertiary: Color.fromRGBO(77, 61, 15, 1),
 
-  ///Don't need ones!!!
-  surfaceDim: Color(0xFF000000), ///000000 Always darkest at the dark and light mode!
-  inverseSurface: Color.fromRGBO(0, 0, 0, 1), /// When components take up like popups or dropdowns!
-  onErrorContainer: Color(0xFFFFE1E7), ///FFE1E7
-  errorContainer: Color(0xFFFD3654), ///FD3654
+  surfaceDim: Color(0xFF000000),
+  inverseSurface: Color.fromRGBO(0, 0, 0, 1),
+  onErrorContainer: Color(0xFFFFE1E7),
+  errorContainer: Color(0xFFFD3654),
   onSecondary: Color(0xFF000000),
   error: Color(0xFF000000),
   onError: Color(0xFF000000),
@@ -55,12 +54,12 @@ const ColorScheme lightColorScheme = ColorScheme(
 const ColorScheme darkColorScheme = ColorScheme(
   brightness: Brightness.dark,
 
-  primary: Color(0xFF2ec866), ///2ec866 For main components on UI!
-  onPrimary: Color(0xFF121418), ///121418 For items ex. icons, texts on main components on UI!
+  primary: Color(0xFF2ec866),
+  onPrimary: Color(0xFF121418),
   primaryContainer: Color.fromRGBO(0, 190, 91, 1),
-  secondary: Color(0xFFf5f5f5), ///a47618
-  secondaryContainer: Color(0xFF17212b), ///FFAD30
-  surface: Color(0xFF0e1621), ///121418 For backgrounds of (Scaffold, app, ...).
+  secondary: Color(0xFFf5f5f5),
+  secondaryContainer: Color(0xFF17212b),
+  surface: Color(0xFF0e1621),
   onSurface: Color(0xffeceded),
   tertiary: Color(0xFFf28c3a),
   onTertiary: Color(0xFF331d0e),
@@ -68,7 +67,6 @@ const ColorScheme darkColorScheme = ColorScheme(
   shadow: Color(0xFFffffff),
   surfaceBright: Color(0xFF6d7883),
 
-  ///Don't need ones!!!
   onSecondary: Color(0xff141210),
   error: Color(0xFF000000),
   onError: Color(0xFF000000),

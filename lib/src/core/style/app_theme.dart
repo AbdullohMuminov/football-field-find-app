@@ -1,7 +1,7 @@
+import "package:football_field_find/src/core/style/text_style.dart";
+import "package:flutter_screenutil/flutter_screenutil.dart";
 import "package:flutter/foundation.dart";
 import "package:flutter/material.dart";
-import "package:flutter_screenutil/flutter_screenutil.dart";
-import "package:football_field_find/src/core/style/text_style.dart";
 import "color_schema.dart";
 
 @immutable

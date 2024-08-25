@@ -1,7 +1,7 @@
-import "package:flutter/material.dart";
 import "package:football_field_find/src/feature/main/view/pages/main_screen.dart";
 import "../../feature/settings/inherited_theme_notifier.dart";
 import "../../feature/settings/theme_controller.dart";
+import "package:flutter/material.dart";
 
 final ThemeController themeController = ThemeController();
 
